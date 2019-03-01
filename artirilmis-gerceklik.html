@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Artırılmış Gerçeklik</title>
+		<link rel="icon" href="./img/ikon_prp.png">
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		<progress value="0" id="progressBar">
+  		<div class="progress-container">
+    		<span class="progress-bar"></span>
+  		</div>
+		</progress>
+		<!-- Header -->
+		<header id="header">
+			<!-- Nav -->
+			<div id="nav">
+				<!-- Main Nav -->
+				<div id="nav-fixed">
+					<div class="container">
+						<!-- logo -->
+						<div class="nav-logo">
+							<a href="index.html" class="logo"><img style="width: 85px; height: 40px;" src="./img/siyah2.png" alt=""></a>
+						</div>
+						<!-- /logo -->
+
+						<!-- nav -->
+						<ul class="nav-menu nav navbar-nav">
+							<li><a href="#">Güncel</a></li>
+							<li class="cat-1"><a href="bilim.html">Bilim</a></li>
+							<li class="cat-2"><a href="teknoloji.html">Teknoloji</a></li>
+							<li class="cat-3"><a href="biltek-nostalji.html">Biltek Nostalji</a></li>
+						</ul>
+						<!-- /nav -->
+
+						<!-- search & aside toggle -->
+						<div class="nav-btns">
+							<button class="aside-btn"><i class="fa fa-bars"></i></button>
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+							<div class="search-form">
+								<input class="search-input" type="text" name="search" placeholder="Aramak istediğinizi giriniz...">
+								<button class="search-close"><i class="fa fa-times"></i></button>
+							</div>
+						</div>
+						<!-- /search & aside toggle -->
+					</div>
+				</div>
+				<!-- /Main Nav -->
+
+				<!-- Aside Nav -->
+				<div id="nav-aside">
+					<!-- nav -->
+					<div class="section-row">
+						<ul class="nav-aside-menu">
+							<li><a href="index.html">Anasayfa</li>
+							<li><a href="about.html">Hakkımızda</a></li>
+							<li><a href="bize-katilin.html">Bize Katılın</a></li>
+							<li><a href="contact.html">İletişim</a></li>
+						</ul>
+					</div>
+					<!-- /nav -->
+
+
+
+					<!-- social links -->
+					<div class="section-row">
+						<h3>Bizi Takip Edin</h3>
+						<ul class="nav-aside-social">
+							<li><a href="https://www.facebook.com/biltekblog"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/biltekblog"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<body id="body">
+								<input type="button" class="changeBg" onclick="reset();" value="Day" />
+    						<input type="button" class="changeBg" onclick="night();" value="Night" />
+							</body>
+						</ul>
+					</div>
+					<!-- /social links -->
+
+					<!-- aside nav close -->
+					<button class="nav-aside-close"><i class="fa fa-times"></i></button>
+					<!-- /aside nav close -->
+				</div>
+				<!-- Aside Nav -->
+			</div>
+			<!-- /Nav -->
+
+			<!-- Page Header -->
+			<div id="post-header" class="page-header">
+				<div class="background-img" style="background-image: url('./img/AR.jpg');"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="post-meta">
+								<a class="post-category cat-2" href="category.html">Teknoloji</a>
+								<span class="post-date">25 Aralık, 2018</span>
+							</div>
+							<h1>Gerçek İle Sanal Dünya Arasındaki Yeni Teknoloji: Artırılmış Gerçeklik</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Page Header -->
+		</header>
+		<!-- /Header -->
+
+		<!-- section -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- Post content -->
+					<div class="col-md-8">
+						<div class="section-row sticky-container">
+							<div class="main-post">
+								<h3>Artırılmış Gerçeklik</h3>
+								<p>Geçtiğimiz yıllarda popülaritesi gitgide artan, sık sık duymaya başladığımız yeni kavramlardan birisi de artırılmış gerçeklik. Peki artırılmış gerçeklik nedir, dünyada artırılmış gerçekliğe dair neler oluyor, BİLTEK’in bu bölümünde de buna değineceğiz.
+Augmented Reality (Artırılmış Gerçeklik) içinde yaşadığımız dünyadaki bilgilerin bir araç vasıtasıyla elde edilen görüntü ve/veya bilgilerle bir araya getirilerek bir amaç için zenginleştirilmesi anlamına gelmektedir. Gerçek dünyanın kamera ile görüntüsünün alınması sırasında, gerçek dünya üzerinde önceden belirlenmiş olan hedef noktalara, bilgisayarda hazırlanmış olan materyallerin belli noktalarından bağlanması ve oluşan sonucun yazılımlar vasıtasıyla yorumlanarak çıktı görüntünün eş zamanlı olarak alınmasıdır. Yani kısaca, telefon, akıllı gözlük gibi cihazları kullanarak, gerçek dünya üzerinde sanal nesnelerin görüntülenebilmesidir artırılmış gerçeklik.</p>
+								<p>Pekala, artırılmış gerçekliğin kullanım alanları neler, bizim ne işimize yarıyor? Artırılmış gerçeklik endüstriyel ürünlerin daha gerçekçi bir şekilde görüntülenebilmesi, imalat ve montaj konularında destek için kullanılırken araba sanayisinde sanal çarpışma testlerinin kontrolü ve gerçek değerlerle karşılaştırılması için kullanılabiliyor. Öte yandan artırılmış gerçeklik denince akla ilk gelen sektör pazarlama oluyor. Firmalar, ürünlerini daha interaktif  bir şekilde pazarlama için bu teknoloji ve uygulamalarından sık sık faydalanıyor. Bu şekilde müşterilerin ilgisini çekmek ve onlara yüksek kalitede hizmet sunmak mümkün oluyor. Örneğin, evinizin dekorasyonunu yaparken kararsız kaldığınızda ve yardıma ihtiyaç duyduğunuzda düşündüğünüz ürünü sanal bir şekilde evinizde görüntüleyebiliyor ve daha gerçekçi sonuçlar elde edebiliyorsunuz. Artırılmış gerçekliğin tek kullanım alanı bu değil tabi ki, örnekleri çeşitlendirmek mümkün. Bir billboard’da gördüğünüz yeni bir filmin reklamına rastladığınızda billboard’u cihazınızla tanımlayarak filmin fragmanını görüntüleyebiliyor, hatta bilet satın alabiliyorsunuz. Bunların yanında, satılık bir binanın tanıtımını izleme, bir tarihi eserin hikayesini görüntüleme, interaktif tişörtler gibi örnekleri çoğaltmak mümkün. Konuya dair en bilindik örneği ise 2016 yazında tüm dünyada patlama yapan Pokemon GO olarak vermek mümkün.
+								</p>
+								<figure class="figure-img">
+									<img class="img-responsive" src="./img/arpokemon.jpg" alt="">
+								</figure>
+								<h3>AI'a Neler Katkıda Bulunur?</h3>
+							  <p>Peki gel gelelim Türkiye’de neler oluyor? Dünyada olduğu gibi Türkiye’de de yeni yeni gelişmekte, Blippar ve Arox Bilişim’in öncülüğünde piyasada kendine yer bulmakta. Örnek olarak, Sakıp Sabancı Müzesi’nde figürleri interaktif olarak görüntüleyebilir, Arapça yazan eserlerin Türkçe ve İngilizce karşılıklarını görüntüleyebiliyorsunuz.  Öte yandan Marshall ise boyamadan önce duvarlarda dilediğiniz rengi görüntüleyebilmenizi sağlayan bir uygulamayı kullanımınıza sunuyor. Artırılmış gerçeklik konusunda da dünyayı bir adım geriden takip etsek de ülkemizde de kendine zamanla yer bulacağına inanıyoruz.</p>
+								<p>Önümüzdeki senelerde ise teknoloji dünyasının en önemli ve önde gelen konularından birisi artırılmış gerçeklik olacak. Google ve Apple gibi teknoloji devlerinin konuya dair çalışmalarını ciddi seviyede arttırmasının ardından teknoloji dünyasının ilgisi bu alana yönelmiş durumda. Şimdilik birkaç mobil cihazda kullanabilinen artırılmış gerçeklik uygulamalarının kısa süre içinde 100 milyon Android cihaza ulaşması planlanıyor. Hızla gelişen teknolojiyle birlikte artırılmış gerçekliği önümüzdeki yıllarda daha sık göreceğimiz şüphesiz.</p>
+							</div>
+							<div class="post-shares sticky-shares">
+								<a href="#" class="share-facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="share-twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="share-google-plus"><i class="fa fa-google-plus"></i></a>
+								<a href="#" class="share-pinterest"><i class="fa fa-pinterest"></i></a>
+								<a href="#" class="share-linkedin"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-envelope"></i></a>
+							</div>
+						</div>
+
+						
+						<!-- /author -->
+
+						<!-- comments -->
+						<div class="section-row">
+							<div class="section-title">
+							</div>
+
+							<div class="post-comments">
+								<!-- comment -->
+								<div class="media">
+									<div class="media-left">
+									</div>
+									<div class="media-body">
+										<div class="media-heading">
+										</div>
+
+										<!-- comment -->
+										<!-- /comment -->
+									</div>
+								</div>
+								<!-- /comment -->
+
+								<!-- comment -->
+								<!-- /comment -->
+							</div>
+						</div>
+						<!-- /comments -->
+
+						<!-- reply -->
+						<div class="section-row">
+						</div>
+						<!-- /reply -->
+					</div>
+
+					<!-- /Post content -->
+
+					<!-- aside -->
+					<div class="col-md-4">
+
+
+
+						<!-- post widget -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Öne Çıkanlar</h2>
+							</div>
+							<div class="post post-thumb">
+								<a class="post-img" href="artirilmis-gerceklik.html"><img src="./img/artırılmış_gerçeklik.jpg" alt="" style="width:360px; height:216px;"></a>
+								<div class="post-body">
+									<div class="post-meta">
+										<a class="post-category cat-2" href="teknoloji.html">Teknoloji</a>
+										<span class="post-date">25 Aralık, 2018</span>
+									</div>
+									<h3 class="post-title"><a href="artirilmis-gerceklik.html">Gerçek ile Sanal Dünya Arasındaki Yeni Teknoloji: Artırılmış Gerçeklik</a></h3>
+								</div>
+							</div>
+
+							<div class="post post-thumb">
+								<a class="post-img" href="büyük-deha-leonardo.html"><img src="./img/LEONARDO.jpg" alt="" style="width:360px; height:216px;"></a>
+								<div class="post-body">
+									<div class="post-meta">
+										<a class="post-category cat-1" href="#">Bilim</a>
+										<span class="post-date">28 Aralık, 2018</span>
+									</div>
+									<h3 class="post-title"><a href="büyük-deha-leonardo.html">Büyük Deha: Leonardo</a></h3>
+								</div>
+							</div>
+						</div>
+						<!-- /post widget -->
+
+						<!-- catagories -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Kategoriler</h2>
+							</div>
+							<div class="category-widget">
+								<ul>
+									<li><a href="bilim.html" class="cat-1">Bilim<span>1</span></a></li>
+									<li><a href="teknoloji.html" class="cat-2">Teknoloji<span>2</span></a></li>
+									<li><a href="biltek-nostalji.html" class="cat-3">Biltek Nostalji<span>0</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /catagories -->
+
+						<!-- tags -->
+						<!-- /tags -->
+
+						<!-- archive -->
+						<!-- /archive -->
+					</div>
+					<!-- /aside -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-5">
+						<div class="footer-widget">
+							<div class="footer-logo">
+								<a href="index.html" class="logo"><img src="./img/siyah.png" alt="" width="100" height="100"></a>
+							</div>
+							<ul class="footer-nav">
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Advertisement</a></li>
+							</ul>
+							<div class="footer-copyright">
+								<span>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="footer-widget">
+									<h3 class="footer-title">Hakkımızda</h3>
+									<ul class="footer-links">
+										<li><a href="about.html">Hakkımızda</a></li>
+										<li><a href="bize-katilin.html">Bize Katılın</a></li>
+										<li><a href="contact.html">İletişim</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="footer-widget">
+									<h3 class="footer-title">Kategoriler</h3>
+									<ul class="footer-links">
+										<li><a href="bilim.html">Bilim</a></li>
+										<li><a href="teknoloji.html">Teknoloji</a></li>
+										<li><a href="biltek-nostalji.html">Biltek Nostalji</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="footer-widget">
+							<h3 class="footer-title">Bültenimize Katılın</h3>
+							<div class="footer-newsletter">
+								<form>
+									<input class="input" type="email" name="newsletter" placeholder="Mailinizi giriniz">
+									<button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button>
+								</form>
+							</div>
+							<ul class="footer-social">
+								<li><a href="https://www.facebook.com/biltekblog"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/biltekblog"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</footer>
+		<!-- /Footer -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/nightmode.js"></script>
+		<script src="js/reading-position-indicator.js"></script>
+	</body>
+</html>

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Tartışmaktan Korkma</title>
+		<link rel="icon" href="./img/ikon_prp.png">
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		<progress value="0" id="progressBar">
+  		<div class="progress-container">
+    		<span class="progress-bar"></span>
+  		</div>
+		</progress>
+		<!-- Header -->
+		<header id="header">
+			<!-- Nav -->
+			<div id="nav">
+				<!-- Main Nav -->
+				<div id="nav-fixed">
+					<div class="container">
+						<!-- logo -->
+						<div class="nav-logo">
+							<a href="index.html" class="logo"><img style="width: 85px; height: 40px;" src="./img/siyah2.png" alt=""></a>
+						</div>
+						<!-- /logo -->
+
+						<!-- nav -->
+						<ul class="nav-menu nav navbar-nav">
+							<li><a href="#">Güncel</a></li>
+							<li class="cat-1"><a href="bilim.html">Bilim</a></li>
+							<li class="cat-2"><a href="teknoloji.html">Teknoloji</a></li>
+							<li class="cat-3"><a href="biltek-nostalji.html">Biltek Nostalji</a></li>
+						</ul>
+						<!-- /nav -->
+
+						<!-- search & aside toggle -->
+						<div class="nav-btns">
+							<button class="aside-btn"><i class="fa fa-bars"></i></button>
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+							<div class="search-form">
+								<input class="search-input" type="text" name="search" placeholder="Aramak istediğinizi giriniz...">
+								<button class="search-close"><i class="fa fa-times"></i></button>
+							</div>
+						</div>
+						<!-- /search & aside toggle -->
+					</div>
+				</div>
+				<!-- /Main Nav -->
+
+				<!-- Aside Nav -->
+				<div id="nav-aside">
+					<!-- nav -->
+					<div class="section-row">
+						<ul class="nav-aside-menu">
+							<li><a href="index.html">Anasayfa</li>
+							<li><a href="about.html">Hakkımızda</a></li>
+							<li><a href="bize-katilin.html">Bize Katılın</a></li>
+							<li><a href="contact.html">İletişim</a></li>
+						</ul>
+					</div>
+					<!-- /nav -->
+
+
+
+					<!-- social links -->
+					<div class="section-row">
+						<h3>Bizi Takip Edin</h3>
+						<ul class="nav-aside-social">
+							<li><a href="https://www.facebook.com/biltekblog"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/biltekblog"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<body id="body">
+								<input type="button" class="changeBg" onclick="reset();" value="Day" />
+    						<input type="button" class="changeBg" onclick="night();" value="Night" />
+							</body>
+						</ul>
+					</div>
+					<!-- /social links -->
+
+					<!-- aside nav close -->
+					<button class="nav-aside-close"><i class="fa fa-times"></i></button>
+					<!-- /aside nav close -->
+				</div>
+				<!-- Aside Nav -->
+			</div>
+			<!-- /Nav -->
+
+			<!-- Page Header -->
+			<div id="post-header" class="page-header">
+				<div class="background-img" style="background-image: url('./img/tartismak4.jpg');"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="post-meta">
+								<a class="post-category cat-2" href="category.html">Teknoloji</a>
+								<span class="post-date">21 Aralık, 2018</span>
+							</div>
+							<h1>Tartışmaktan Korkma!</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Page Header -->
+		</header>
+		<!-- /Header -->
+
+		<!-- section -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- Post content -->
+					<div class="col-md-8">
+						<div class="section-row sticky-container">
+							<div class="main-post">
+								<h3>Tartışmaktan Korkma</h3>
+								<p>Çevrenizde herkes tartışıyor, değil mi? Anneniz, babanız, arkadaşlarınız, komşularınız, mahalledeki çocuklar, televizyonda izlediğiniz programlardaki insanlar... İster istemez sizin de tartışmalarda başrol olarak görev aldığınızı varsayarsam yanılmış olmam sanırım. Amacım sizleri kavgacı olarak nitelendirmek değil, sonuç olarak siz de çevrenizden ne görüyorsanız onu yapıyorsunuz. </p>
+								<p>Çevrenizin -sizi etkileyen, hareketlerinizi şekillendiren etrafınızdaki insanların- bazı konularda yanlış bilgi sahibi olabileceğini düşündünüz mü? Onlar için “tartışmacı” ve “kavgacı” kavramları aynı şeyi ifade ediyor ve tartışmanın sonu kaçınılmaz olarak kavgaya çıkıyor olabilir. Size miras bırakılan bu fikrin ortaya atacağım düşünce ile bağdaşmayacağının farkındayım fakat tartışmanın kötü bir şey olmadığını düşündünüz mü hiç? Size tartışmanın bizler için yararlı  olabileceğini söylesem beni ne kadar ciddiye alırsınız? Siz de haklısınız, etrafınızda tartışmayı yanlış anlayan, sadece fikir çatışması, münakaşa ve kavga ortamı oluşturan o kadar çok insan varken tartışma nasıl yararlı olsun ki...</p>
+								<p>Gelin, bu konuya biraz bakış açımızı değiştirelim. Tartışmanın tanımından başlayalım mesela. Sokağa çıkıp tartışmanın ne olduğunu sorduğunuzda  “Karşımızdakilerin duygu ve düşüncelerini değiştirmeyi, yenilemeyi amaçlayan konuşma biçimidir.” gibi ve genel hatlarıyla aynı fikri vermeye çalışan tanımlarla karşılaşmanız çok büyük ihtimale, hatta siz de bu kişilerden biri olabilirsiniz. Evet, haklısınız ama bu tanımı yaparken tartışma sırasında fikirlerinizi değiştirmeye, yenilenmeye kapalı olduğunuzu ya da tartıştığınız kişiyi dinlerken onun açığını bulmak için dinlediğinizi unutmuş oluyorsunuz. "Sen de bizi yargılamak için mi yazıyorsun?" ya da “Ne alakası var şimdi?” diye belki de hafif sitemkar bir tavırla içinizden geçiriyorsunuz. Tamam kızmayın, yazının devamında sizi değil, bir arkadaşınızı anlatacağım.</p>
+								<p>Bu arkadaşınız tartışmanın amacını bilmiyor ne yazık ki. Tartışırken tek gayesi var, tartıştığı kişinin kendisinin rakibi olmadığını fark etmeksizin karşısındakinin fikirlerini çürütmek. “Pekala! Neden yapılır tartışma, karşıt görüşü alt etmeyeceksem ne işe yarar ki?” diye sorabilirsiniz. Sahiden, fikrimizi kabul ettirmeyeceksek neden boşu boşuna gerilelim?</p>
+								<figure class="figure-img">
+									<img class="img-responsive" src="./img/tartismak4.jpg" alt="">
+								</figure>
+							  <p>Bir pazarlık senaryosu hayal edin. İki taraf da ellerini sıkı sıkı tutar ve başlarlar sallamaya. O an gerilirler biraz ama ellerini bıraktıkları anda iki taraf da mutludur ve en önemlisi iki tarafın da söylediği rakam olmamıştır, bir orta yol bulunmuştur. Tartışma da pazarlık yapmaya benzer. Tartışırken gerilir insan, tartışma bittiğinde karşı tarafın fikriyle kendi fikrini harmanlayıp orta yolu bulur bir nevi. Daha doğru bir düşünce bulunur.</p>
+								<p>Hazır pazarlık demişken gelin, sizinle bir de pazara gidelim. Tezgah tezgah geziyorsunuz, dalından yeni koparılmış taptaze meyveler arasından gözünüze çarpanı alıyorsunuz. Elma, armut, üzüm, kayısı... Bunları neden anlattığımı merak ettiğinizin farkındayım, amacım her satın alma işlemi öncesinde yaptığınız ortak bir noktaya dikkat çekmek. Evet bildiniz! Aldıklarınızı tarttırmanızdan bahsediyorum. Hâla bunun tartışmayla ne ilgisi var diye düşünüyorsanız lafı daha fazla uzatmadan söyleyeyim tartışma kelimesinin kökünü: Tartmak. Teraziler her zaman elma, armut tartmak için değildir; bazen -bilhassa tartışırken- mantık terazilerinde düşüncelerimizi tartarız; bu sebeple tartışırız.</p>
+								<p>En başta bu konuya bakış açımızı değiştirelim demiştim, şimdi sizden bir tartışma ortamı hayal etmenizi istiyorum. Kavgasız, gürültüsüz, verimli bir tartışma. Hayalinizdeki insanlar birbirinin sözünü kesmiyor, saygı çerçevesinde birbirlerini sabırla dinleyerek tartışıyor olsa gerek. Bu hayal ettiklerinizin hepsi çok güzel ve bir o kadar da doğru ancak bakış açımızı her zaman içinde bulunduğumuz fakat genellikle tartışma olarak nitelendirmediğimiz bir duruma parmak basarak biraz daha değiştirmek istiyorum.</p>
+								<p>Bu sefer, tartışan iki kişi yok. Dolayısıyla bırakın gürültüyü, ortamda ses bile yok. Gün içinde sabah kahvaltısında ne yiyeceğiniz ve işe giderken ne giyeceğiniz gibi basit kararlardan tutun da yeni bir iş teklifini değerlendirmek ya da üniversite tercihlerini yapmak gibi hayatınızın geri kalanını etkileyecek bu kadar önemli kararlarınızı alırken aslında yaptığınız şey kendinizle tartışmak değil midir?</p>
+								<p>Bu durumda tartışmanın iki tarafı da sizsiniz, başka kimse yok, sadece siz ve siz. Fikirlerimizi, düşüncelerimizi ve kararlarımızı dışa açmadan önce kendi içimizde daha doğruyu bulmak adına yaptığımız bu iç tartışma tartışmaların en güzel örneğidir. Bu içsel düşünce sırasında sesimiz yükselmez, kırıcı olmayız ve bir durum üzerine aklımıza gelen tüm bakış açılarını mantık terazimizde tartarız, tartmalıyız da. Atalarımızın tartışmaya önce kendi içimizden başlamamız gerektiğini belirten onlarca deyimden sadece bir tanesi olan “İki düşün, bir söyle.” atasözü de bu iç tartışmayı önerir bize.</p>
+								<figure class="figure-img">
+									<img class="img-responsive" src="./img/tartışmak.jpg" alt="">
+								</figure>
+								<p>Şimdi, size bir soru sormak istiyorum: Herkes kendi içinde bu kadar iyi bir tavırla tartışabilirken dış tartışmalarda ne değişiyor? Bir başka deyişle, tartışmak daha doğruyu bulmak, düşünceleri tartmak adına bu kadar önemliyken kendi içinde verimli tartışmayı yapabilen insanlara ne oluyor da başkalarıyla tartışmaları kavgalara dönüştürüyor? Aslında cevap apaçık ortada: İnsanlar tartışmanın amacını yanlış anlayıp konuyu bireyselleştiriyorlar. "Vay efendim, sen o dediğini boşver de 92 senesinin mart ayında nerede olduğunu söyleyiver hele!" gibi sözleri çok sık duyuyoruz tartışma arasında. Sadece ailemiz ve arkadaşlarımızla tartışırken değil, mecliste hükümet ile muhalefet arasında konu yeni yasa tasarısı iken bile duyduğumuz cümleler bunlar.</p>
+								<p>Sorunun ne kadar kayda değer olduğunu anladığımıza göre size yeni bir soru sorayım: Tartışmalarımızı nasıl daha sağlıklı hale getirebiliriz? Öncelikle, 1992 senesinin mart ayını bir kenara bırakacağız; ya sonra? Bunun cevabına gelmeden önce size başka bir şeyden bahsetmek istiyorum, bunun için de az önce bahsettiğimiz arkadaşınıza dönmemiz gerekiyor.</p>
+								<p>Müjdemi isterim, o arkadaşınız Türkiye'nin en büyük yayınevlerinden birinde editör oldu. Yayınevinin basacağı kitaplar en son onun onayından geçecek. Bu, oldukça güzel bir durum fakat küçük bir sıkıntı var. Arkadaşınız yayınevinde çalışan Mehmet Bey ile bir türlü anlaşamıyor; Mehmet Bey ise arkadaşınızın basmayı reddettiği kitaplar için bir açıklama yapılmasını, gerekçelerin ekibe anlatılmasını, gerekirse toplantı sırasında tartışılmasını istiyor. Arkadaşınız, zaten sevmediği Mehmet Bey'i “Size hesap mı vereceğim?” diyerek tersliyor. Arkadaşınız ve Mehmet Bey’in arası böyleyken birçok yayınevi tarafından veto edilmiş bir kitap yayınevine öneriliyor. Arkadaşınız kitabı yeterince incelemiyor ve diğer yayınevlerine istinaden veto ediyor. Mehmet Bey ise kitap taslağını inceliyor ve arkadaşınıza kitabın neden basılmadığını soruyor. Arkadaşınız “Bu kitap iyi olsaydı şimdiye çoktan basarlardı.” diye geçiştirmeye çalışıyor fakat Mehmet Bey “Kitap içindeki karakterlerde insanımız kendisini bulacaktır. İnanın bana, bu kitap halkımız tarafından çok beğenilecektir. En azından toplantıda bu kitabı ayrıntılarıyla konuşalım.” diyerek kitabın neden basılması gerektiğini anlatmaya çalışıyor ama nafile, konu tartışılmaya bile açılmadan kapanıyor. Mehmet Bey arkadaşınızın bu hareketi sonucunda fikirlerinin önemsenmediğini hissediyor ve bu ekibe ait olmadığını düşünerek ansızın istifa dilekçesini veriyor.
+								</p>
+								<p>Hikayemiz bir kenarda dursun çünkü siz muhtemelen tartışmalarımızı nasıl daha sağlıklı hale getireceğimizi çoktan çözdünüz. Evet, arkadaşınız Mehmet Bey'i ve fikirlerini birbirinden bağımsız düşünmeliydi. Tartışmada önemli olan fikirlerdir, fikirler ile fikir sahipleri birbirinden ayrı tutulmalıdır. Aynı hedef doğrultusunda doğruyu bulmaya uğraşırken sırf bir kişiden hoşlanmıyoruz diye duygularımızın, egomuzun ve önyargılarımızın aklımızın önüne geçerek bu kişinin fikirlerini yok saymak mantığa uygun değildir. Peki ya arkadaşınız? En çok satanlar listesini hızla tırmanacak bir kitabı basma şansını kaçırdı</p>
+								<p>Sonuç olarak, tartışmaktan korkmamalı; onu daha iyiye ulaşmakta kullanacağımız, avantajlı bir iletişim aracına çevirmeliyiz. Bu amaç için önce kendimizle, sonra çevremizle tartışıp düşüncelerimizi sık sık mantık terazisinin ellerine bırakmalıyız. Bu değişimi yapmazsak tartışmanın bize sağlayacağı yararlardan mahrum kalırız.</p>
+							</div>
+							<div class="post-shares sticky-shares">
+								<a href="#" class="share-facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="share-twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="share-google-plus"><i class="fa fa-google-plus"></i></a>
+								<a href="#" class="share-pinterest"><i class="fa fa-pinterest"></i></a>
+								<a href="#" class="share-linkedin"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-envelope"></i></a>
+							</div>
+						</div>
+
+
+					
+						<!-- /author -->
+
+						<!-- comments -->
+
+						<!-- /comments -->
+
+						<!-- reply -->
+						<!-- /reply -->
+					</div>
+
+					<!-- /Post content -->
+
+					<!-- aside -->
+					<div class="col-md-4">
+
+
+
+						<!-- post widget -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Öne Çıkanlar</h2>
+							</div>
+							<div class="post post-thumb">
+								<a class="post-img" href="büyük-deha-leonardo.html"><img src="./img/LEONARDO.jpg" alt="" style="height:216px; width:360px;"></a>
+								<div class="post-body">
+									<div class="post-meta">
+										<a class="post-category cat-1" href="bilim.html">Bilim</a>
+										<span class="post-date">28 Aralık, 2018</span>
+									</div>
+									<h3 class="post-title"><a href="büyük-deha-leonardo.html">Büyük Deha: Leonardo</a></h3>
+								</div>
+							</div>
+
+							<div class="post post-thumb">
+								<a class="post-img" href="tartismaktan-korkma.html"><img src="./img/tartismak1.jpg" alt="" style="height:216px; width:360px;"></a>
+								<div class="post-body">
+									<div class="post-meta">
+										<a class="post-category cat" href="#">Psikoloji</a>
+										<span class="post-date">21 Aralık, 2018</span>
+									</div>
+									<h3 class="post-title"><a href="tartismaktan-korkma.html">Tartışmaktan Korkma!</a></h3>
+								</div>
+							</div>
+						</div>
+						<!-- /post widget -->
+
+						<!-- catagories -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Kategoriler</h2>
+							</div>
+							<div class="category-widget">
+								<ul>
+									<li><a href="bilim.html" class="cat-1">Bilim<span>1</span></a></li>
+									<li><a href="teknoloji.html" class="cat-2">Teknoloji<span>2</span></a></li>
+									<li><a href="biltek-nostalji.html" class="cat-3">Biltek Nostalji<span>0</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /catagories -->
+
+						<!-- tags -->
+						<!-- /tags -->
+
+						<!-- archive -->
+						<!-- /archive -->
+					</div>
+					<!-- /aside -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-5">
+						<div class="footer-widget">
+							<div class="footer-logo">
+								<a href="index.html" class="logo"><img src="./img/siyah.png" alt="" width="100" height="100"></a>
+							</div>
+							<ul class="footer-nav">
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Advertisement</a></li>
+							</ul>
+							<div class="footer-copyright">
+								<span>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="footer-widget">
+									<h3 class="footer-title">Hakkımızda</h3>
+									<ul class="footer-links">
+										<li><a href="about.html">Hakkımızda</a></li>
+										<li><a href="bize-katilin.html">Bize Katılın</a></li>
+										<li><a href="contact.html">İletişim</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="footer-widget">
+									<h3 class="footer-title">Kategoriler</h3>
+									<ul class="footer-links">
+										<li><a href="bilim.html">Bilim</a></li>
+										<li><a href="teknoloji.html">Teknoloji</a></li>
+										<li><a href="biltek-nostalji.html">Biltek Nostalji</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="footer-widget">
+							<h3 class="footer-title">Bültenimize Katılın</h3>
+							<div class="footer-newsletter">
+								<form>
+									<input class="input" type="email" name="newsletter" placeholder="Mailinizi giriniz">
+									<button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button>
+								</form>
+							</div>
+							<ul class="footer-social">
+								<li><a href="https://www.facebook.com/biltekblog"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/biltekblog"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</footer>
+		<!-- /Footer -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/nightmode.js"></script>
+		<script src="js/reading-position-indicator.js"></script>
+	</body>
+</html>

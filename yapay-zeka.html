@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<title>Yapay Zeka</title>
+		<link rel="icon" href="./img/ikon_prp.png">
+
+		<!-- Google font -->
+		<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:700%7CNunito:300,600" rel="stylesheet">
+
+		<!-- Bootstrap -->
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
+
+		<!-- Font Awesome Icon -->
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+
+		<!-- Custom stlylesheet -->
+		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+
+		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+    </head>
+	<body>
+		<progress value="0" id="progressBar">
+  		<div class="progress-container">
+    		<span class="progress-bar"></span>
+  		</div>
+		</progress>
+		<!-- Header -->
+		<header id="header">
+			<!-- Nav -->
+			<div id="nav">
+				<!-- Main Nav -->
+				<div id="nav-fixed">
+					<div class="container">
+						<!-- logo -->
+						<div class="nav-logo">
+							<a href="index.html" class="logo"><img style="width: 85px; height: 40px;" src="./img/siyah2.png" alt=""></a>
+						</div>
+						<!-- /logo -->
+
+						<!-- nav -->
+						<ul class="nav-menu nav navbar-nav">
+							<li><a href="#">Güncel</a></li>
+							<li class="cat-1"><a href="bilim.html">Bilim</a></li>
+							<li class="cat-2"><a href="teknoloji.html">Teknoloji</a></li>
+							<li class="cat-3"><a href="biltek-nostalji.html">Biltek Nostalji</a></li>
+						</ul>
+						<!-- /nav -->
+
+						<!-- search & aside toggle -->
+						<div class="nav-btns">
+							<button class="aside-btn"><i class="fa fa-bars"></i></button>
+							<button class="search-btn"><i class="fa fa-search"></i></button>
+							<div class="search-form">
+								<input class="search-input" type="text" name="search" placeholder="Aramak istediğinizi giriniz...">
+								<button class="search-close"><i class="fa fa-times"></i></button>
+							</div>
+						</div>
+						<!-- /search & aside toggle -->
+					</div>
+				</div>
+				<!-- /Main Nav -->
+
+				<!-- Aside Nav -->
+				<div id="nav-aside">
+					<!-- nav -->
+					<div class="section-row">
+						<ul class="nav-aside-menu">
+							<li><a href="index.html">Anasayfa</li>
+							<li><a href="about.html">Hakkımızda</a></li>
+							<li><a href="bize-katilin.html">Bize Katılın</a></li>
+							<li><a href="contact.html">İletişim</a></li>
+						</ul>
+					</div>
+					<!-- /nav -->
+
+
+
+					<!-- social links -->
+					<div class="section-row">
+						<h3>Bizi Takip Edin</h3>
+						<ul class="nav-aside-social">
+							<li><a href="https://www.facebook.com/biltekblog"><i class="fa fa-facebook"></i></a></li>
+							<li><a href="https://www.instagram.com/biltekblog"><i class="fa fa-instagram"></i></a></li>
+							<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+							<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							<body id="body">
+								<input type="button" class="changeBg" onclick="reset();" value="Day" />
+    						<input type="button" class="changeBg" onclick="night();" value="Night" />
+							</body>
+						</ul>
+					</div>
+					<!-- /social links -->
+
+					<!-- aside nav close -->
+					<button class="nav-aside-close"><i class="fa fa-times"></i></button>
+					<!-- /aside nav close -->
+				</div>
+				<!-- Aside Nav -->
+			</div>
+			<!-- /Nav -->
+
+			<!-- Page Header -->
+			<div id="post-header" class="page-header">
+				<div class="background-img" style="background-image: url('./img/ai2.jpg');"></div>
+				<div class="container">
+					<div class="row">
+						<div class="col-md-10">
+							<div class="post-meta">
+								<a class="post-category cat-2" href="category.html">Teknoloji</a>
+								<span class="post-date">27 Aralık, 2018</span>
+							</div>
+							<h1>Yapay Zekaya Genel Bakış</h1>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- /Page Header -->
+		</header>
+		<!-- /Header -->
+
+		<!-- section -->
+		<div class="section">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<!-- Post content -->
+					<div class="col-md-8">
+						<div class="section-row sticky-container">
+							<div class="main-post">
+								<h3>Yapay Zeka</h3>
+								<p>Bilgisayarların ve makinelerin icatlarından bu yana, onların çeşitli görevleri yerine getirebilme becerileri katlanarak artmakta. İnsanlar zamanla bilgisayar sistemlerini: çalışma alanlarının çeşitlendirilmesi, hızlarının arttırılması ve boyutlarının küçültülmesi gibi konularda geliştirdiler.</p>
+								<p>Bilgisayar biliminin bir kolu olan yapay zeka çalışmaları, bilgisayarları veya makineleri insanlar kadar zeki kılmaya çalışıyor.</p>
+								<h3>Yapay Zeka Nedir?</h3>
+								<p>Yapay zekanın babası, John McCarthy'ye göre:</p>
+								<blockquote class="blockquote">
+									Yapay zeka, akıllı makineler ve özellikle akıllı bilgisayar programları üreten bilim ve mühendisliktir”. Yapay zekaya bir nevi bir bilgisayarın, bilgisayar kontrollü bir robotun veya bir yazılımın, zeki insanların düşüncelerine benzer şekilde düşünmesi de denebilir.
+								</blockquote>
+								<p>Bu konu üzerine yazılan makaleler genel olarak İngilizce olduğu için Artificial Intelligence anlamına gelen AI kısaltması kullanılır.
+AI, insan beyninin nasıl düşündüğünü ve bir problemi çözmeye çalışırken nasıl öğrenip karar verdiğini inceler. Sonrasında bu çalışmanın sonuçlarını, akıllı yazılımları ve sistemleri geliştirmenin temeli olarak kullanır.</p>
+								<h3>AI Felsefesi</h3>
+								<p>Bilgisayarların gücünden istifade ederken, bir makinenin insanlar gibi düşünüp davranabilmesi merakı, insanları karmaşık ve engin zekaya sahip olan makineler üretmeye teşvik ediyor.</p>
+								<h3>AI'ın Genel Hedefleri</h3>
+								<p>Uzman Sistemlerin Yaratılması: Akıllı davranış sergileyen, öğrenen, gösteren, açıklayan ve kullanıcılarına tavsiyelerde bulunan sistemlerdir.
+Makinelerde İnsani Zekanın Uygulanması: İnsanlar gibi anlayan, düşünen, öğrenen ve davranan sistemlerdir.</p>
+								<figure class="figure-img">
+									<img class="img-responsive" src="./img/ai.jpg" alt="">
+								</figure>
+								<h3>AI'a Neler Katkıda Bulunur?</h3>
+							  <p>Yapay zeka, bilgisayar bilimleri, biyoloji, psikoloji, dilbilim, matematik ve mühendislik gibi disiplinlere dayanan bir teknolojidir. AI'a en büyük katkıyı akıl yürütme, öğrenme ve problem çözme gibi insan zekasıyla ilgili bilgisayar işlevlerinin geliştirilmesi yapar.
+AI ile ve AI’sız programlamanın farkı basitçe aşağıdaki tablodaki gibi gösterilebilir :</p>
+								<table border=1>
+								    <tr>
+								        <th><strong>AI Olmadan Programlama</strong></th>
+								        <th><strong>AI ile Programlama</strong></th>
+								    </tr>
+								    <tr>
+								        <td>AI içermeyen bir bilgisayar programı çözmek istediği spesifik soruları cevaplayabilir.</td>
+								        <td>AI ile bir bilgisayar programı çözmek istediği genel soruları cevaplayabilir.</td>
+								    </tr>
+								    <tr>
+								        <td>Programdaki değişiklikler yapısında değişikliklere neden olur.</td>
+								        <td>Programları son derece bağımsız bilgi parçalarını bir araya getirerek yeni değişiklikleri kabul edebilir. Bu nedenle, programın bir dakikalık parçasını yapısını etkilemeden değiştirebilirsiniz.</td>
+								    </tr>
+										<tr>
+								        <td>Değiştirme hızlı ve kolay değildir. Programın olumsuz etkilenmesine neden olabilir.</td>
+								        <td>Hızlı ve kolay program değişikliği</td>
+								    </tr>
+								</table>
+								<h3 style="margin-top:15px;">AI Tekniği Nedir?</h3>
+								<p>Gerçek hayatta bilginin bazı hoşa gitmeyen özellikleri vardır. Hacmi hayal edilemeyecek kadar büyüktür, iyi düzenlenmiş veya biçimlendirilmiş değildir, sürekli olarak değişir. Aynı zamanda, AI bilgiyi etkin bir şekilde düzenleme ve kullanma tekniğidir: onu yaratan insanlar tarafından algılanmalıdır, hataları düzeltmek için kolayca değiştirilebilir olmalıdır ve eksik ya da yanlış dahi olsa birçok durumda yararlı olmalıdır.</p>
+								<h3>AI Uygulamaları</h3>
+								<p>AI çeşitli alanlarda zamanla baskın hale gelmiştir.<br><br>
+									Oyun<br>
+									Satranç, poker, tic-tac-toe vb. gibi stratejik oyunlarda çok önemli bir rol oynamaktadır. Burada sistem, sezgisel bilgiye dayalı olası çok sayıda pozisyonu düşünebilir.<br><br>
+
+									Doğal Dil İşleme<br>
+									İnsanlar tarafından konuşulan, doğal dili anlayan bilgisayarla etkileşim kurması mümkündür.<br><br>
+
+									Uzman Sistemler<br>
+									Makina, yazılım ve özel bilgileri akıl yürütme ve danışmanlık yapmak için bütünleştiren bazı uygulamalar vardır. Kullanıcılara açıklama ve tavsiyeler sağlarlar.<br><br>
+
+									Görme Sistemleri<br>
+									Bu sistemler bilgisayardaki görsel girdileri anlamak ve yorumlamak için kullanılmaktadır. Örneğin, bir casusluk uçağının çektiği fotoğrafları; bölgelerin haritalarını veya konum bilgilerini çıkarmak için kullanılır.<br><br>
+
+									Tıpta<br>
+									Hastayı teşhis etmek için ‘klinik uzman sistemi’ kullanılmaktadır.<br><br>
+
+									Polis Teşkilatları<br>
+									Adli ressam tarafından çizilmiş bir portreyi, suçlunun yüzüyle eşleştirmesi için bir yazılım kullanılıyor.<br><br>
+
+									Konuşma-Tanıma<br>
+									Bazı akıllı sistemler, bir insan onlarla konuşurken cümleleri ve anlamları açısından, dili işitme ve anlama yeteneğine sahiptir. Dolayısıyla arka plandaki farklı vurguları, argo kelimeleri, gürültüyü, soğuktan dolayı insanın sesinin değişmesini anlayabilir.<br><br>
+
+									El Yazısı Tanıma<br>
+									El yazısı tanıma yazılımı, kağıt üzerine veya ekrana yazılan metni okur. Harflerin şekillerini tanıyabilir ve düzenlenebilir metne dönüştürebilirler.<br><br>
+
+									Akıllı Robotlar<br>
+									Robotlar bir insanın verdiği görevleri yerine getirebilirler. Gerçek hayattaki fiziksel verileri: ışık, ısı, sıcaklık, hareket, ses, çarpma ve basınç gibi algılayan sensörleri vardır. Üzerlerinde bu zekayı sergilemek için verimli işlemciler, sensörler ve büyük bellekler barındırırlar. Bunlara ek olarak, hatalarından öğrenebilme ve yeni çevreye karşı uyum sağlayabilme yetileri vardır.
+								</p>
+								<h3>Ve Geleceği...</h3>
+								<p>AI inanılmaz bir hızla gelişmekte, bazen büyülü görünse de araştırmacılar ve geliştiriciler arasında AI'ın kontrol edilmesinin zor olacağı kadar çok büyüyebileceği konusunda yaygın bir görüş var. Tehditlerden birkaçı:</p>
+								<p>Gizlilik tehdidi: Konuşmayı tanıyan ve doğal dili anlayan bir AI programı teorik olarak e-postalar ve telefonlardaki her konuşmayı anlayabilme yeteneğine sahip olucaktır.
+Haysiyet tehdidi: AI sistemleri, birkaç endüstride insanları değiştirmeye başlamış durumdadır. Cerrah, hakim, polis memuru gibi etikle birebir ilgili olan sektörlerin yerini alıcak pozisyonlara gelebilir.</p>
+								<p>Güvenlik Tehdidi: Kendini geliştiren AI sistemleri, hedeflerine ulaşmaları için durduramayacak kadar güçlü olabilir ki bu da istenmeyen sonuçlara yol açabilir.
+İnsanlar AI sistemlerini, mümkün olan her türlü bilgiyi sisteme tanıtarak geliştirmişlerdir ve şimdi bu sistem yüzünden kendilerini tehdit altında görmektedirler. Gelecekte bilgisayarların ve makinelerin bize neler getireceğini artık kimse bilemiyor.</p>
+							</div>
+							<div class="post-shares sticky-shares">
+								<a href="#" class="share-facebook"><i class="fa fa-facebook"></i></a>
+								<a href="#" class="share-twitter"><i class="fa fa-twitter"></i></a>
+								<a href="#" class="share-google-plus"><i class="fa fa-google-plus"></i></a>
+								<a href="#" class="share-pinterest"><i class="fa fa-pinterest"></i></a>
+								<a href="#" class="share-linkedin"><i class="fa fa-linkedin"></i></a>
+								<a href="#"><i class="fa fa-envelope"></i></a>
+							</div>
+						</div>
+
+					
+
+						<!-- /author -->
+
+						<!-- comments -->
+						<div class="section-row">
+							<div class="section-title">
+							</div>
+
+							<div class="post-comments">
+								<!-- comment -->
+								<div class="media">
+									<div class="media-left">
+									</div>
+								</div>
+								<!-- /comment -->
+
+								<!-- comment -->
+								<!-- /comment -->
+							</div>
+						</div>
+						<!-- /comments -->
+
+						<!-- reply -->
+						<!-- /reply -->
+					</div>
+
+					<!-- /Post content -->
+
+					<!-- aside -->
+					<div class="col-md-4">
+
+
+						<!-- post widget -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Öne Çıkanlar</h2>
+							</div>
+							<div class="post post-thumb">
+								<a class="post-img" href="artirilmis-gerceklik.html"><img src="./img/artırılmış_gerçeklik.jpg" alt="" style="height:216px; width:360px;"></a>
+								<div class="post-body">
+									<div class="post-meta">
+										<a class="post-category cat-2" href="teknoloji.html">Teknoloji</a>
+										<span class="post-date">25 Aralık, 2018</span>
+									</div>
+									<h3 class="post-title"><a href="artırılmış_gerçeklik.html">Gerçek ile Sanal Dünya Arasındaki Yeni Teknoloji: Artırılmış Gerçeklik</a></h3>
+								</div>
+							</div>
+
+							<div class="post post-thumb">
+								<a class="post-img" href="tartismaktan-korkma.html"><img src="./img/tartismak1.jpg" alt="" style="height:216px; width:360px;"></a>
+								<div class="post-body">
+									<div class="post-meta">
+										<a class="post-category cat" href="#">Psikoloji</a>
+										<span class="post-date">21 Aralık, 2018</span>
+									</div>
+									<h3 class="post-title"><a href="tartismaktan-korkma.html">Tartışmaktan Korkma!</a></h3>
+								</div>
+							</div>
+						</div>
+						<!-- /post widget -->
+
+						<!-- catagories -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Kategoriler</h2>
+							</div>
+							<div class="category-widget">
+								<ul>
+									<li><a href="bilim.html" class="cat-1">Bilim<span>1</span></a></li>
+									<li><a href="teknoloji.html" class="cat-2">Teknoloji<span>2</span></a></li>
+									<li><a href="biltek-nostalji.html" class="cat-3">Biltek Nostalji<span>0</span></a></li>
+								</ul>
+							</div>
+						</div>
+						<!-- /catagories -->
+
+						<!-- tags -->
+						<!-- /tags -->
+
+						<!-- archive -->
+						<!-- /archive -->
+					</div>
+					<!-- /aside -->
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</div>
+		<!-- /section -->
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!-- container -->
+			<div class="container">
+				<!-- row -->
+				<div class="row">
+					<div class="col-md-5">
+						<div class="footer-widget">
+							<div class="footer-logo">
+								<a href="index.html" class="logo"><img src="./img/siyah.png" alt="" width="100" height="100"></a>
+							</div>
+							<ul class="footer-nav">
+								<li><a href="#">Privacy Policy</a></li>
+								<li><a href="#">Advertisement</a></li>
+							</ul>
+							<div class="footer-copyright">
+								<span>&copy; <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved |<i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></span>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="footer-widget">
+									<h3 class="footer-title">Hakkımızda</h3>
+									<ul class="footer-links">
+										<li><a href="about.html">Hakkımızda</a></li>
+										<li><a href="bize-katilin.html">Bize Katılın</a></li>
+										<li><a href="contact.html">İletişim</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="footer-widget">
+									<h3 class="footer-title">Kategoriler</h3>
+									<ul class="footer-links">
+										<li><a href="bilim.html">Bilim</a></li>
+										<li><a href="teknoloji.html">Teknoloji</a></li>
+										<li><a href="biltek-nostalji.html">Biltek Nostalji</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-3">
+						<div class="footer-widget">
+							<h3 class="footer-title">Bültenimize Katılın</h3>
+							<div class="footer-newsletter">
+								<form>
+									<input class="input" type="email" name="newsletter" placeholder="Mailinizi giriniz">
+									<button class="newsletter-btn"><i class="fa fa-paper-plane"></i></button>
+								</form>
+							</div>
+							<ul class="footer-social">
+								<li><a href="https://www.facebook.com/biltekblog"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="https://www.instagram.com/biltekblog"><i class="fa fa-instagram"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+							</ul>
+						</div>
+					</div>
+
+				</div>
+				<!-- /row -->
+			</div>
+			<!-- /container -->
+		</footer>
+		<!-- /Footer -->
+
+		<!-- jQuery Plugins -->
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/main.js"></script>
+		<script src="js/nightmode.js"></script>
+		<script src="js/reading-position-indicator.js"></script>
+	</body>
+</html>
